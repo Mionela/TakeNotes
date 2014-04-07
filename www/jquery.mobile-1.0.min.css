@@ -265,8 +265,8 @@ color:#2489ce}
 font-family:Helvetica,Arial,sans-serif}
 
 .ui-body-c,.ui-dialog.ui-overlay-c{
-	border: 1px solid #b3b3b3;
-	color: #0C6;
+	border: no border;
+	color: #000;
 	text-shadow: 0 1px 0 #fff;
 	background: #f0f0f0;
 	background-image: -webkit-gradient(linear,left top,left bottom,from(#eee),to(#ddd));

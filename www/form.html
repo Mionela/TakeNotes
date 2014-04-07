@@ -18,12 +18,11 @@
 <div data-role="page" id="page">
     <div data-role="header">
     
-        <h1><img src="images/icon.png" alt="Header"></h1>
+        <img src="images/icon.png" alt="Header" align="left"><p align="center">Course Details</p>
     </div>
-<div data-role="formpage" id="formp">
+<div data-role="formpage" id="formp" align="center">
     <form action="" method="post" id="form">
-    <ul data-role="listview" id="courseDetailsFields">
-    <li data-role="list-divider">Course Details:</li>
+   
     <li data-role="fieldcontain">
     <label for="taskName">Name</label>
     <input type="text" name="taskName" id="taskName" value=""/>
@@ -38,7 +37,7 @@
     <input type="range" min="1" max="4" step="4" name="taskYear" value=""/></li>
     </ul></form></div>
     <div data-role="footer">
-        <h4>Page Footer</h4>
+        <a href="#page" data-role="button" data-icon="back" data-iconpos="top">Back</a>
     </div>
 </div>
 </body>
